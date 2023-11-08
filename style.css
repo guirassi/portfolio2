@@ -1,0 +1,200 @@
+body{background-color: rgb(9, 48, 48)
+
+
+}
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+.principale{
+    background-image: linear-gradient(rgba(14, 29, 194, 0.534), rgba(255, 255, 0, 0.5)),
+    url("a/stade\ 2.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    border: 1px solid black;
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.logo span{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.logo{
+    color: aliceblue;
+    padding: 0px 20px;
+    border: 1px solid#fff;position: absolute;
+    top: 10px;
+    left: 10px;   
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0,7);
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a{text-decoration: none;color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0,6s ease;
+}
+ul li a:hover{
+background: #fff;
+color: #000;
+}
+ul li :active a{
+background:#fff ;
+color: #000;}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 70px;}
+  header{
+    background:linear-gradient(rgba(4, 81, 15, 0.564), rgba(255, 255, 0, 0.5)) ;
+
+  }
+ 
+  
+  .swa{
+    padding:0px;
+    margin: 0px;
+    border: 5px solid blue;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  article.cr{
+    padding: 0%;
+    margin: 0%;
+    height: 690px;
+    width: 530px;
+    justify-content: flex-start;
+    background-image: url(a/image\ vestiair.jpg);
+    
+  }
+  article.carte{
+    padding:0% ;
+    margin: 0%;
+    height: 690px;
+    width:400px ;
+    justify-content: center;
+    background-image:url(a/istockphoto-1194696587-612x612.jpg)
+    ;
+    
+  
+  }
+
+  .carton{
+    padding:0;
+    margin: 0;
+    height: 690px;
+    width: 350px;
+    justify-content: flex-start;
+    background-image: url(a/football-2778583_1280.jpg);
+  }
+ .guirassi {
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  
+  
+  
+  }
+  em{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+  
+  }
+
+
+  .EM5{
+    border: 1px solid black;
+   background-color: #000;
+  }
+
+
+  footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .EM1{
+      border: 1px solid black;
+      height: 300px;
+      display: flex;
+      justify-content: space-around;
+      background:linear-gradient(rgba(4, 81, 15, 0.564), rgba(255, 255, 0, 0.5)) ;
+
+  }
+
+  .BL1{
+    border: 1px solid black;
+    width: 150px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgba(5, 55, 2, 0.555);
+  }
+
+  .CL1{
+    background-image: linear-gradient(rgba(4, 81, 15, 0.564), rgba(255, 255, 0, 0.5)),
+                  url("a/CR7.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .CL2{
+    background-image: linear-gradient(rgba(4, 81, 15, 0.564), rgba(255, 255, 0, 0.5)),
+    url("a/benz.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .CL3{
+    background-image: linear-gradient(rgba(4, 81, 15, 0.564), rgba(255, 255, 0, 0.5)),
+    url("a/belligham2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .id1{
+    font-size: 12px;
+    color: black;
+    margin-top: 20px;
+  }
+
+  .id2{
+    font-size: 12px;
+    color: black;
+    margin-top: 75px;
+  }
+
+  .id3{
+    font-size: 12px;
+    color: black;
+    margin-top: 25px;
+  }
+  
